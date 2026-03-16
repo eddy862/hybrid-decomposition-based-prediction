@@ -1,6 +1,6 @@
 # Hybrid Decomposition-Based Forecasting for River Nitrate Prediction
 
-This repository contains an experiment notebook (`exp.ipynb`) that proposes a **decomposition-based hybrid forecasting framework** for **river nitrate (NO₃⁻) time-series prediction**.
+This repository contains an experiment notebook (`exp.ipynb`) that proposes a **decomposition-based hybrid forecasting framework** for **river nitrate (NO₃) time-series prediction**.
 
 The core idea is to **decompose** the original nitrate time series into interpretable components (trend / seasonality / residual), train **multiple candidate forecasting models** per component, and then **recombine** the best component-level forecasts into a final prediction.
 
